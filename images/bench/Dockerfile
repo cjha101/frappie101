@@ -2,7 +2,7 @@ FROM debian:bookworm-slim as bench
 
 LABEL author=frappé
 
-ARG GIT_REPO=https://github.com/frappe/bench.git
+ARG GIT_REPO=https://github.com/cjha101/frappie101
 ARG GIT_BRANCH=v5.x
 
 RUN apt-get update \
